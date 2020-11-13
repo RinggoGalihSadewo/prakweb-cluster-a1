@@ -1,25 +1,138 @@
-$bgcolor: rgb(140, 136, 132);
-$mid: center;
-$l: 800px;
-$textcolor: white;
 
-.container {
-	
-	margin: 0 auto;
-	width: $l;
-	height: auto;
-	border-radius: 10px;
-	border: 2px solid black;
 
-}
 
-.header {
-	p{	
-		background-color: $bgcolor;
-		text-align: $mid;
-		font-family: arial;
-		color: $textcolor;
-		padding: 20px;
-		margin-top: -10px;
-	}
-}
+
+
+
+$font: arial;
+$boxshadow: 10px 10px 15px gray;
+$borderimg: 1px solid gray;
+$boxshadowimg: 2px 2px 5px gray;
+
+		* {
+
+			font-family: $font;
+		}
+		
+		.container {
+			  margin: 0 auto;
+			  width: 1000px;
+			  height: auto;
+			  border-radius: 12px;
+			  border: 2px solid black;
+			  box-shadow: $boxshadow;
+		}
+
+		.header h1 {
+			  background-color: #8c8884;
+			  text-align: center;
+			  font-family: arial;
+			  color: white;
+			  padding: 20px;
+			  margin-top: 0;
+			  border-radius: 10px 10px 0 0; 
+		}
+
+		a {
+
+			text-decoration: none;
+		}
+
+		.navbar {
+
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			padding: 10px;
+			margin-top: -22px;
+
+			a:hover {
+
+				background-color: #8c8884;
+				color: white;
+				border-radius: 5px;
+				transition: 1s;
+
+			}
+
+		}
+
+		
+		.right{
+
+			padding: 5px 30px 5px 30px;
+		}
+
+		.footer {
+
+			border-top: 2px solid black;
+			text-align: center;
+			background-color: #8c8884;
+			padding: 2px; 
+			border-radius: 0 0 10px 10px;
+			color: white; 
+
+		}
+
+		.img1 {
+			
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-bottom: 10px;
+			width: 300px;
+			height: 200px;
+		
+			
+		}
+
+		.img1:hover {
+
+			border: $borderimg;
+			box-sizing: border-box;
+			transition: 0.5s;
+			border-radius: 5px;
+			box-shadow: $boxshadowimg; 
+		}
+
+
+		.img2 {
+
+			margin-top: 20px;
+			margin-left: 350px;
+			margin-bottom: 10px;
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			top: 249px;
+			
+		}
+
+		.img2:hover {
+
+			border: $borderimg;
+			box-sizing: border-box;
+			transition: 0.5s;
+			border-radius: 5px;
+			box-shadow: $boxshadowimg; 
+		}
+
+		.img3 {
+
+			
+			margin-top: 20px;
+			margin-left: 680px;
+			margin-bottom: 10px;
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			top: 249px;
+			
+		}
+
+		.img3:hover {
+
+			border: $borderimg;
+			box-sizing: border-box;
+			transition: 0.5s;
+			border-radius: 5px;
+			box-shadow: $boxshadowimg; 
+		}
