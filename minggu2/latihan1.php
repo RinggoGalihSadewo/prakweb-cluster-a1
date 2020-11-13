@@ -8,22 +8,22 @@
 	$operator = $bil1 + $bil2;
 	echo "Hasil : ".$operator."<br><br>";
 
-	echo "PENJUMLAHAN <br>";
+	echo "PENGURANGAN <br>";
 	echo "Operator : - <br>";
 	$operator = $bil1 - $bil2;
 	echo "Hasil : ".$operator."<br><br>";
 
-	echo "PENJUMLAHAN <br>";
+	echo "PERKALIAN <br>";
 	echo "Operator : * <br>";
 	$operator = $bil1 * $bil2;
 	echo "Hasil : ".$operator."<br><br>";
 
-	echo "PENJUMLAHAN <br>";
+	echo "PEMBAGIAN <br>";
 	echo "Operator : / <br>";
 	$operator = $bil1 / $bil2;
 	echo "Hasil : ".$operator."<br><br>";
 
-	echo "PENJUMLAHAN <br>";
+	echo "MODULUS <br>";
 	echo "Operator : % <br>";
 	$operator = $bil1 % $bil2;
 	echo "Hasil : ".$operator."<br><br>";

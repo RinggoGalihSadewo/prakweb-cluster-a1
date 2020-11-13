@@ -1,0 +1,25 @@
+$bgcolor: rgb(140, 136, 132);
+$mid: center;
+$l: 800px;
+$textcolor: white;
+
+.container {
+	
+	margin: 0 auto;
+	width: $l;
+	height: auto;
+	border-radius: 10px;
+	border: 2px solid black;
+
+}
+
+.header {
+	p{	
+		background-color: $bgcolor;
+		text-align: $mid;
+		font-family: arial;
+		color: $textcolor;
+		padding: 20px;
+		margin-top: -10px;
+	}
+}
