@@ -44,8 +44,12 @@
 					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
 				}
 
-				else if (is_null($warna)) {
+				else if ($warna=="") {
 					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
+				}
+
+				else {
+					echo "Maaf, pilihan warna yang tersedia hanya Hitam, Hijau dan Biru";
 				}
 
 			}
@@ -67,7 +71,7 @@
 					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
 				}
 
-				else if (is_null($warna)) {
+				else if ($warna==""){
 					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
 				}
 
@@ -90,7 +94,7 @@
 					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
 				}
 
-				else if (is_null($warna)) {
+				else if ($warna=="") {
 					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
 				}
 
