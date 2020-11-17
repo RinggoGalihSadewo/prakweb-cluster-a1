@@ -10,7 +10,7 @@
 		<label for="nama">Masukan Nama: </label>
 		<input type="type" id="nama" name="nama" required>
 		<br><br>
-		<label for="warna">Pilih warna: </label>
+		<label for="warna">Masukan warna font: </label>
 		<input type="text" id="warna" name="warna" placeholder="Hitam, Hijau dan Biru">
 		<br><br>
 		<button type="submit" name="input">Input</button>
@@ -33,19 +33,19 @@
 				}
 
 				if ($warna=="hitam" || $warna=="Hitam") {
-					echo "<font style='color: black;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: black;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="hijau" || $warna=="Hijau") {
-					echo "<font style='color: Green;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: Green;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="biru" || $warna=="Biru") {
-					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: blue;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="") {
-					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: red;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else {
@@ -60,19 +60,19 @@
 				}
 
 				if ($warna=="hitam" || $warna=="Hitam") {
-					echo "<font style='color: black;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: black;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="hijau" || $warna=="Hijau") {
-					echo "<font style='color: Green;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: Green;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="biru" || $warna=="Biru") {
-					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: blue;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna==""){
-					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: red;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 			}
@@ -83,19 +83,19 @@
 				}
 
 				if ($warna=="hitam" || $warna=="Hitam") {
-					echo "<font style='color: black;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: black;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="hijau" || $warna=="Hijau") {
-					echo "<font style='color: Green;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: Green;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="biru" || $warna=="Biru") {
-					echo "<font style='color: blue;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: blue;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 				else if ($warna=="") {
-					echo "<font style='color: red;'> Harga bet: $sum <br></font>";
+					echo "<font style='color: red;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
 			}
