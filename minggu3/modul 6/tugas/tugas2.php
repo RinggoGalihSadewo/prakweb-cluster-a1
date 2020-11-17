@@ -75,6 +75,10 @@
 					echo "<font style='color: red;'> Nama: $nama <br> Harga total: $sum <br></font>";
 				}
 
+				else {
+					echo "Maaf, pilihan warna yang tersedia hanya Hitam, Hijau dan Biru";
+				}
+
 			}
 
 			else if ($countname>20) {
@@ -96,6 +100,10 @@
 
 				else if ($warna=="") {
 					echo "<font style='color: red;'> Nama: $nama <br> Harga total: $sum <br></font>";
+				}
+
+				else {
+					echo "Maaf, pilihan warna yang tersedia hanya Hitam, Hijau dan Biru";
 				}
 
 			}
