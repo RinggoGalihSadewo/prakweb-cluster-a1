@@ -5,5 +5,5 @@
 	foreach ($nama as $key => $value) {
 		echo "Urutan ke-$key adalah $value <br>";
 	}
-a
+
  ?>
