@@ -1,4 +1,4 @@
-<?php 
+s<?php 
 
 	//tanpa parameter
 	function belajar_web(){
