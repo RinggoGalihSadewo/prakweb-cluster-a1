@@ -14,6 +14,21 @@
 
 	}
 
+	if (isset($_POST["btncari"])){
+		if (cari($_POST)>0) {
+			echo "<script>alert('Data berhasil ditemukan!');
+			document.location.href='view.php'</script>";
+		}
+
+	}
+
+	if (isset($_GET["del"])) {
+		if (hapus($_GET)>0){
+			echo "<script>alert('Data berhasil dihapus!');
+			document.location.href='view.php'</script>";
+		}
+	}
+
  ?>
 
 <!DOCTYPE html>
@@ -51,16 +66,27 @@
 	<br><br><br>
 	<button type="submit" name="tambah">Tambah Data</button> 
 	<br><br>
-	
-	<p>=================================</p>
-	<h2>SEARCH DATA</h2>
-	<br>
-	<label for="nama">Nama: </label>
-	<input type="text" id="nama" name="carinama">
-	<button type="submit" name="btncari">Cari Data</button>
-	<br>
 	<p>=================================</p>
 	</form>
+	<h2>SEARCH DATA</h2>
+	<br>
+	<form action="view.php" method="get">
+	<label for="nama">Nama: </label>
+	<input type="text" id="nama" name="carinama">
+	<input type="submit" value="cari">
+	</form>
+	<br>
+	<p>=================================</p>
+	<h2>DELETE DATA</h2>
+	<br>
+	<form action="" method="get">
+	<label for="nrpdel">NRP: </label>
+	<input type="text" id="nama" name="nrpdel">
+	<button type="submit" name="del" onclick="return confirm('yakin menghapus data ?');">Delete Data</button>
+	</form>
+	<br>
+	<p>=================================</p>
+	
 
 </body>
 </html>

@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 <?php 
 	
 	$kolom=$_POST["kolom"];

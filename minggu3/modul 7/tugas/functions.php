@@ -1,6 +1,6 @@
 <?php 
 
-	$conn = mysqli_connect("localhost","root","","prakwebm3") or die("koneksi ke database gagal");
+	$conn = mysqli_connect("localhost","root","","prakwebm3") or die ("koneksi ke database gagal");
 
 	function tambah($data){
 
@@ -16,7 +16,7 @@
 
 			$id_tel = "233TEL";
 
-			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_tel')";
+			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_tel','$jurusan')";
 
 			mysqli_query($conn, $query);
 
@@ -28,7 +28,7 @@
 
 			$id_elka = "311ELK";
 
-			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_elka')";
+			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_elka','$jurusan')";
 
 			mysqli_query($conn, $query);
 
@@ -40,7 +40,7 @@
 
 			$id_it = "363IT";
 
-			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_it')";
+			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_it','$jurusan')";
 
 			mysqli_query($conn, $query);
 
@@ -52,7 +52,7 @@
 
 			$id_eli = "337ELI";
 
-			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_eli')";
+			$query = "INSERT INTO mahasiswa VALUES ('$nrp','$nama','$alamat','$foto','$id_eli','$jurusan')";
 
 			mysqli_query($conn, $query);
 
@@ -61,5 +61,18 @@
 		}
 
 	}
+
+	function hapus($data){
+
+		global $conn;
+
+		$nrp = $data["nrpdel"];
+
+		mysqli_query($conn, "DELETE FROM mahasiswa WHERE NRP = $nrp");
+
+		return mysqli_affected_rows($conn);
+
+	}
+
 
  ?>
