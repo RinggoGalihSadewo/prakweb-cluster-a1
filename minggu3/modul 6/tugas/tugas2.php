@@ -8,7 +8,7 @@
 	<form action="" method="get">
 		
 		<label for="nama">Masukan Nama: </label>
-		<input type="type" id="nama" name="nama" required>
+		<input type="text" id="nama" name="nama" required>
 		<br><br>
 		<label for="warna">Masukan warna font: </label>
 		<input type="text" id="warna" name="warna" placeholder="Hitam, Hijau dan Biru">
