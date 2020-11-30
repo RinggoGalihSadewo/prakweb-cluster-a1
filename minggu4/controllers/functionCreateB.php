@@ -1,5 +1,6 @@
 <?php 	
 	
+	
 	require 'connect.php';
 
 	function add($data){
@@ -11,7 +12,7 @@
 		$alamat = $data["alamat"];
 		$email = $data["email"];
 
-		mysqli_query($conn, "INSERT INTO pegawaia VALUES ('', '$nama', '$jeniskelamin' , '$alamat' , '$email')");
+		mysqli_query($conn, "INSERT INTO pegawaib VALUES ('', '$nama', '$jeniskelamin' , '$alamat' , '$email')");
 
 		return mysqli_affected_rows($conn);
 

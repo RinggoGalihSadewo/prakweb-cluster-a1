@@ -7,12 +7,12 @@
 
 <?php 
 
-	require 'updateA.php';
-	require 'showA.php';
+	require 'updateB.php';
+	require 'showB.php';
 
 	$id = $_GET["id"];
 
-	$data = view("SELECT * FROM pegawaia WHERE id = $id")[0];
+	$data = view("SELECT * FROM pegawaiB WHERE id = $id")[0];
 
 	
 	if (isset($_POST["ubah"])) {
@@ -23,7 +23,7 @@
 			echo "
 				<script> 
 					alert ('data berhasil diubah!');
-					document.location.href='../views/user1.php';
+					document.location.href='../views/user2.php';
 				</script>
 				";
 

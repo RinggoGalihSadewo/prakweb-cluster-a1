@@ -1,13 +1,13 @@
 <?php 
 
-	require 'functionCreateA.php';
+	require 'functionCreateB.php';
 
 	if (isset($_POST["tambah"])) {
 			
 			if (add($_POST) > 0) {
 				
 					echo "<script>alert('Data berhasil ditambahkan!');
-					document.location.href='../views/user1.php'</script>
+					document.location.href='../views/user2.php'</script>
 					
 					";
 

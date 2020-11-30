@@ -1,11 +1,7 @@
 <?php 
-
-
-
-
-
 	
-	
+
+
 	$conn = mysqli_connect("localhost", "root", "", "minggu4") or die ("Koneksi ke database gagal");
 
 	function update($data) {
@@ -18,7 +14,7 @@
 		$alamat = $data["alamat"];
 		$email = $data["email"];
 
-		$query = "UPDATE pegawaia SET nama = '$nama',
+		$query = "UPDATE pegawaib SET nama = '$nama',
 				jeniskelamin = '$jeniskelamin', alamat = '$alamat',
 				email = '$email' WHERE id = $id
 		";
