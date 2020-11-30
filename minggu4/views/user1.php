@@ -63,7 +63,7 @@
 	<br>
 	<a href="../controllers/createA.php">Tambah data</a>
 	<br>
-	<a href="../views/admin.php">Kembali</a>
+
 
 </body>
 </html>

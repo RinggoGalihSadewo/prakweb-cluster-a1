@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<h1>Anda seorang ADMIN</h1>
+	<h1>ADMIN</h1>
 
 	<a href="user1.php">Masuk untuk Create / Edit / Delete pada data User1</a>
 	<br><br>

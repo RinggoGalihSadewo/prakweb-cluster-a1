@@ -58,11 +58,10 @@
 		<?php endforeach; ?>
 
 	</table>
-
+	
 	<br>
 	<a href="../controllers/createB.php">Tambah data</a>
 	<br>
-	<a href="../views/admin.php">Kembali</a>
 
 </body>
 </html>
