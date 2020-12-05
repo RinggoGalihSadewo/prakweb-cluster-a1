@@ -1,4 +1,4 @@
-<script>
+<script>a
     var i = 3;
 
     function ganti(id = i) {
