@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Ringgo</awal>
+        <akhir>Galih Sadewo</akhir>
+    </nama>
+    
+    <jeniskelamin>Laki-laki</jeniskelamin>
+
+    <alamat>
+        <kabupaten>Lampung Selatan</kabupaten>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+
+    <sosialMedia>
+        <github>RinggoGalihSadewo</github>
+        <instagram>@ringgo.gs</instagram>
+    </sosialMedia>
+</dataDiri>

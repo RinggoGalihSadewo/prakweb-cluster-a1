@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "Ringgo",
+        "akhir": "Galih Sadewo"
+    },
+    "jeniskelamin": "Laki-laki",
+    "alamat": {
+        "kabupaten": "Bandar Lampung",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    "sosialMedia": {
+        "github": "RinggoGalihSadewo",
+        "instagram": "@ringgo.gs"
+    }
+}
